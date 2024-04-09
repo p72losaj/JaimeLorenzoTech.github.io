@@ -21,3 +21,10 @@ footer p {
   font-size: 16px;
   margin: 0;
 }
+
+
+.collapse.navbar-collapse {  /* Target collapsed navbar content */
+  display: flex;  /* Enable flexbox for content layout */
+  justify-content: space-between;  /* Distribute links evenly */
+  align-items: center;  /* Align links vertically */
+}
