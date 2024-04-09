@@ -1,0 +1,11 @@
+/* Navbar adjustments for mobile devices */
+@media (max-width: 768px) {
+  .navbar-toggler {
+    display: block; /* Show toggle button on mobile */
+  }
+  .navbar-nav {
+    display: flex; /* Enable flexbox for mobile layout */
+    justify-content: space-between; /* Distribute links evenly */
+    align-items: center; /* Align links vertically */
+  }
+}
