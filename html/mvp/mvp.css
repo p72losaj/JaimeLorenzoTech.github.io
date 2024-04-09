@@ -1,0 +1,113 @@
+/* Estilo general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Encabezado */
+
+header {
+    background-color: #0073b7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* Contenido principal */
+
+main {
+    padding: 20px;
+}
+
+/* Seccion "Acerca de" */
+
+.acerca-de {
+    margin-bottom: 40px;
+}
+
+.acerca-de h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.acerca-de p {
+    margin-bottom: 10px;
+}
+
+.acerca-de ul {
+    list-style: none;
+    padding: 0;
+}
+
+.acerca-de ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Seccion "Contacto" */
+
+.contacto {
+    margin-bottom: 40px;
+}
+
+.contacto h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contacto form {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contacto form input,
+.contacto form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto form button {
+    background-color: #0073b7;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #0073b7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Pie de pagina */
+
+footer {
+    background-color: #0073b7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
+}

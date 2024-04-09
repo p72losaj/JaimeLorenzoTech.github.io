@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutor Tech - Protege tus datos</title>
+    <link rel="stylesheet" href="mvp.css">
+    <script src="mvp.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Tutor Tech</h1>
+        <p>Tu aliado en la proteccion de los datos de tu empresa</p>
+    </header>
+    <main>
+        <section class="acerca-de">
+            <h2>Acerca de mi</h2>
+            <p>Soy un ingeniero informatico especializado en computacion. 
+                Me apasiona ayudar a las personas y empresas a proteger sus datos de las amenazas digitales.</p>
+            <p>Ofrezco una amplia gama de servicios de ciberseguridad, incluyendo:</p>
+            <ul>
+                <li>Proteccion de datos</li>
+                <li>Analisis de vulnerabilidades</li>
+                <li>Respuesta a incidentes</li>
+                <li>Formacion en ciberseguridad</li>
+            </ul>
+        </section>
+        
+        <section class="contacto">
+            <h2>Contacta conmigo</h2>
+            <form action="#">
+		<label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombreCompleto" name="nombreCompleto" placeholder="nombreCompleto">
+                <br>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="Correo electrónico">
+                <br>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
+                <br>
+                <button type="submit" onclick="enviarCorreo()">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 [Jaime Lorenzo Sanchez]</p>
+    </footer>
+</body>
+</html>
