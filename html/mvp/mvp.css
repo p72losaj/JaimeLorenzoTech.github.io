@@ -63,39 +63,31 @@ main {
     border-radius: 5px;
 }
 
-/* Seccion "Contacto" */
+/* Seccion "beneficios" */
 
-.contacto {
+.beneficios {
     margin-bottom: 40px;
 }
 
-.contacto h2 {
+.beneficios h2 {
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-.contacto form {
-    padding: 20px;
+.beneficios p {
+    margin-bottom: 10px;
+}
+
+.beneficios ul {
+    list-style: none;
+    padding: 0;
+}
+
+.beneficios ul li {
+    margin-bottom: 10px;
+    padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
-}
-
-.contacto form input,
-.contacto form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.contacto form button {
-    background-color: #0073b7;
-    color: #fff;
-    padding: 10px 20px;
-    border: 1px solid #0073b7;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
 /* Pie de pagina */
