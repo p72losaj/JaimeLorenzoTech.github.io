@@ -1,14 +1,4 @@
-/* Navbar adjustments for mobile devices */
-@media (max-width: 768px) {
-  .navbar-toggler {
-    display: block; /* Show toggle button on mobile */
-  }
-  .navbar-nav {
-    display: flex; /* Enable flexbox for mobile layout */
-    justify-content: space-between; /* Distribute links evenly */
-    align-items: center; /* Align links vertically */
-  }
-}
+
 /* Estilos para el pie de página */
 footer {
   background-color: #000;
@@ -20,11 +10,4 @@ footer {
 footer p {
   font-size: 16px;
   margin: 0;
-}
-
-
-.collapse.navbar-collapse {  /* Target collapsed navbar content */
-  display: flex;  /* Enable flexbox for content layout */
-  justify-content: space-between;  /* Distribute links evenly */
-  align-items: center;  /* Align links vertically */
 }
