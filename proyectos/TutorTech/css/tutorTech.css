@@ -1,0 +1,329 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Choose a clean, professional font */
+    margin: 0; /* Remove default body margins */
+    padding: 0; /* Remove default body padding */
+    background-color: #f0f0f0; /* Light background color */
+    color: #333; /* Dark text color for readability */
+  }
+  
+  header {
+    background-color: #333; /* Dark blue background */
+    color: #fff; /* White text color */
+    padding: 20px 0; /* Top and bottom padding */
+    text-align: center; /* Center header content */
+  }
+
+  /* Logo Styles */
+  .logo img {
+    max-width: 200px; /* Adjust logo width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add space to the right of the logo */
+  }
+  
+  h1 {
+    font-size: 24px; /* Adjust heading size as needed */
+    margin: 0; /* Remove default heading margin */
+    font-weight: bold; /* Bold heading text */
+    color: #fff; /* White text color */
+  }
+  
+  p {
+    font-size: 16px; /* Adjust paragraph size as needed */
+    line-height: 1.5; /* Add line spacing for readability */
+    margin: 15px 0; /* Space between paragraphs */
+    color: #fff; /* White text color */
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px; /* Add padding around main content */
+  }
+
+  /* Acerca de */
+  
+.acerca-de{
+    background-color: #007bff; /* Light blue background */
+    border: 1px solid #ddd; /* Subtle border */
+    padding: 20px; /* Padding within sections */
+    margin-bottom: 20px; /* Space between sections */
+  }
+  
+  /* Section Heading (h2) */
+.acerca-de h2{
+    color: #fff; /* White text for contrast */
+    font-weight: bold; /* Bold heading */
+    margin-bottom: 20px; /* Spacing below heading */
+  }
+  
+  /* Section Text (p) */
+  .acerca-de p{
+    color: #000; /* Dark text for readability */
+    line-height: 1.6; /* Add line spacing for better readability */
+    margin-bottom: 15px; /* Spacing between paragraphs */
+  }
+  
+  
+  /* List Items (li) */
+  .acerca-de li{
+    color: #000; /* Dark text for readability */
+    margin-bottom: 10px; /* Spacing between list items */
+  }
+  
+  /* List item (ul) */
+  
+  .acerca-de ul{
+    list-style: none; /* Remove default list bullets */
+    padding: 0; /* Remove default list padding */
+    margin: 0; /* Remove default list margin */
+  }
+
+  /** Servicios Styles */
+
+  /* Section Container */
+  #servicios {
+    background-color: #f8fafc; /* Lighter gray background for better contrast */
+    padding: 40px; /* Increase padding for more breathing room */
+    margin-bottom: 30px; /* Increase margin for better separation */
+    border-radius: 10px; /* Add subtle rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  
+  /* Section Heading */
+  #servicios h2 {
+    color: #333; /* Dark gray heading */
+    font-weight: bold;
+    text-align: center; /* Center the heading text */
+    margin-bottom: 30px; /* Increase bottom margin */
+  }
+  
+  
+  /* Service List */
+  .lista-servicios {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox for better layout */
+    flex-wrap: wrap; /* Allow items to wrap to multiple lines */
+    justify-content: center; /* Center items horizontally */
+    align-items: flex-start; /* Align items vertically at the top */
+  }  
+  
+  /* Service Items */
+  .lista-servicios li {
+    width: 300px; /* Set a fixed width for each item */
+    margin: 15px; /* Add margin for spacing */
+    padding: 20px; /* Increase padding for more content space */
+    background-color: #fff; /* White background for contrast */
+    color: #333; /* Dark gray text */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease; /* Hover effect */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .lista-servicios li h3 {
+    font-size: 18px; /* Increase font size for headings */
+    font-weight: bold;
+    margin-bottom: 10px; /* Add margin below headings */
+  }
+  
+  .lista-servicios li p {
+    line-height: 1.6; /* Adjust line height for better readability */
+    color: #666; /* Darker gray text for better readability */
+  }
+  
+  .lista-servicios li:hover {
+    background-color: #f5f5f5; /* Slightly lighter background on hover */
+    cursor: pointer;
+  }
+
+  .lista-servicios li i {
+    margin-right: 10px;
+    color: #007bff; /* Blue icon color */
+    font-size: 20px; /* Increase icon size */
+  }  
+
+  /* Estilos para la imagen del servicio */
+.lista-servicios li img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    margin: 0 auto 10px; /* Centra la imagen horizontalmente y agrega espacio debajo */
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    border-radius: 5px; /* Agrega esquinas redondeadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil */
+}
+
+  /* Beneficios Styles */
+
+  #beneficios {
+    background-color: #007bff; /* Light blue background */
+    padding: 40px; /* Increase padding for more breathing room */
+    margin-bottom: 30px; /* Increase margin for better separation */
+    border-radius: 10px; /* Add subtle rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  #beneficios h2 {
+    color: #fff; /* White text for contrast */
+    font-weight: bold;
+    text-align: center; /* Center the heading text */
+    margin-bottom: 30px; /* Increase bottom margin */
+  }
+  
+  .lista-beneficios {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox for better layout */
+    flex-wrap: wrap; /* Allow items to wrap to multiple lines */
+    justify-content: center; /* Center items horizontally */
+    align-items: flex-start; /* Align items vertically at the top */
+  }
+  
+  .lista-beneficios li {
+    width: 300px; /* Set a fixed width for each item */
+    margin: 15px; /* Add margin for spacing */
+    padding: 20px; /* Increase padding for more content space */
+    background-color: #fff; /* White background for contrast */
+    color: #333; /* Dark gray text */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease; /* Hover effect */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .lista-beneficios li h3 {
+    font-size: 18px; /* Increase font size for headings */
+    font-weight: bold;
+    margin-bottom: 10px; /* Add margin below headings */
+  }
+  
+  .lista-beneficios li p {
+    line-height: 1.6; /* Adjust line height for better readability */
+    color: #666; /* Darker gray text for better readability */
+  }
+  
+  .lista-beneficios li:hover {
+    background-color: #f5f5f5; /* Slightly lighter background on hover */
+    cursor: pointer;
+  }
+
+  .lista-beneficios li i {
+    margin-right: 10px;
+    color: #007bff; /* Blue icon color */
+    font-size: 20px; /* Increase icon size */
+  }  
+
+  /* Estilos para la imagen del beneficio */
+  .lista-beneficios li img {
+  display: block; /* Asegura que la imagen sea un bloque */
+  margin: 0 auto 10px; /* Centra la imagen horizontalmente y agrega espacio debajo */
+  max-width: 100%; /* Ajusta el tamaño máximo de la imagen al contenedor */
+  height: auto; /* Permite que la altura se ajuste automáticamente */
+  border-radius: 5px; /* Agrega esquinas redondeadas */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil */
+}
+  
+
+  /* Footer Styles */
+#contacto {
+    background-color: #f8f9fa; /* Color de fondo del footer */
+    padding: 40px; /* Espaciado interno */
+}
+
+.contacto-titulo {
+    color: #333; /* Color del título */
+    font-size: 24px; /* Tamaño del título */
+    margin-bottom: 20px; /* Espacio inferior */
+    text-align: center; /* Alinear al centro */
+}
+
+.contacto-info {
+    display: flex; /* Mostrar en formato de fila */
+    justify-content: space-around; /* Distribuir los elementos horizontalmente */
+    margin-bottom: 30px; /* Espacio inferior */
+}
+
+.contacto-item {
+    text-align: center; /* Alinear al centro */
+}
+
+.contacto-item h3 {
+    color: #007bff; /* Color del título del contacto */
+    font-size: 18px; /* Tamaño del título del contacto */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+.contacto-item p {
+    font-size: 16px; /* Tamaño del texto del contacto */
+    margin: 0; /* Eliminar el margen */
+    color: #555; /* Color del texto del contacto */
+}
+
+.contacto-item ul {
+    list-style: none; /* Eliminar viñetas de la lista */
+    padding: 0; /* Eliminar el relleno */
+}
+
+.contacto-item ul li {
+    margin-bottom: 5px; /* Espacio inferior entre elementos de la lista */
+}
+
+.contacto-item ul li a {
+    color: #007bff; /* Color del enlace de redes sociales */
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+}
+
+.contacto-item ul li a:hover {
+    text-decoration: underline; /* Subrayar enlaces al pasar el ratón */
+}
+
+/* Style the icons */
+.contacto-item i {
+  font-size: 20px; /* Adjust icon size as needed */
+  margin-right: 10px; /* Add spacing between icon and link */
+}
+
+.fab.fa-facebook {
+  color: #3B5998;
+}
+
+.fab.fa-twitter {
+  color: #1DA1F2;
+}
+
+.fab.fa-instagram {
+  color: #FF7A00;
+}
+
+.fab.fa-linkedin {
+  color: #0077B5;
+}
+
+.fas.fa-phone {
+  color: #333;
+}
+
+.fas.fa-envelope {
+  color: #0077B5;;  ;
+}
+
+
+/* Copyright */
+.copyright {
+    background-color: #007bff; /* Color de fondo del copyright */
+    text-align: center; /* Alinear al centro */
+    font-size: 14px; /* Tamaño del texto */
+    color: #fff; /* Color del texto */
+    margin-top: 20px; /* Espacio superior */
+    padding: 10px; /* Añadir relleno */
+}
+
+
+
+
+  
