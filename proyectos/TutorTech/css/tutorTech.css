@@ -81,7 +81,7 @@ body {
   /** Servicios Styles */
 
   /* Section Container */
-  .servicios {
+  #servicios {
     background-color: #f8fafc; /* Lighter gray background for better contrast */
     padding: 40px; /* Increase padding for more breathing room */
     margin-bottom: 30px; /* Increase margin for better separation */
@@ -91,12 +91,18 @@ body {
   
   
   /* Section Heading */
-  .servicios h2 {
+  #servicios h2 {
     color: #333; /* Dark gray heading */
     font-weight: bold;
     text-align: center; /* Center the heading text */
     margin-bottom: 30px; /* Increase bottom margin */
   }
+
+  .servicios p{
+    color: #000; /* Dark text for readability */
+    line-height: 1.6; /* Add line spacing for better readability */
+    margin-bottom: 15px; /* Spacing between paragraphs */
+}
   
   
   /* Service List */
